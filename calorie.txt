@@ -1,0 +1,36 @@
+Apple: 52 calories
+Banana: 89 calories
+Beetroot: 43 calories
+Bell pepper (red): 31 calories
+Cabbage: 25 calories
+Capsicum (green pepper): 20 calories
+Carrot: 41 calories
+Cauliflower: 25 calories
+Chilli Paper: 40 calories
+Corn (sweet, yellow): 86 calories
+Cucumber: 15 calories
+Eggplant (aubergine): 25 calories
+Garlic: 149 calories
+Ginger: 80 calories
+Grapes: 69 calories
+Jalapeno: 29 calories
+Kiwi: 61 calories
+Lemon: 29 calories
+Lettuce (iceberg): 14 calories
+Mango: 60 calories
+Onion: 40 calories
+Orange: 47 calories
+Paprika: 31 calories
+Pear: 57 calories
+Peas: 81 calories
+Pineapple: 50 calories
+Pomegranate: 83 calories
+Potato: 77 calories
+Radish: 16 calories
+Soybeans (edamame): 147 calories
+Spinach: 23 calories
+Sweetcorn: 86 calories
+Sweet potato: 86 calories
+Tomato: 18 calories
+Turnip: 28 calories
+Watermelon: 30 calories

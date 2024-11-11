@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PosePerfect</title>
+    <style>
+        /* Your existing CSS styles */
+    </style>
+</head>
+<body>
+    <h1 id="upload"></h1>
+    <div class="container">
+        <h1 class="headText">FRUIT RECOGNITION AND CALORIE ESTIMATION</h1>
+        <!-- Placeholder for the dynamic text -->
+        <div class="dynamicText">
+            <span id="good_posture">Good Posture</span><br>
+            <span id="number">0</span>s
+        </div>
+        <form class="innerContainer" method="POST" enctype="multipart/form-data">
+            <input class="input1" type="file" name="file" id="uploadimage" accept=".jpg, .jpeg, .png">
+            <input class="input2" type="submit" value="Upload">
+        </form>
+    </div>
+
+    <script>
+        // Function to fetch updated data from the server and update the HTML content
+        function updateData() {
+            fetch('/update_data')
+                .then(response => response.json())
+                .then(data => {
+                    document.getElementById('good_posture').textContent = data.good_posture;
+                    document.getElementById('number').textContent = data.number;
+                });
+        }
+
+        // Call the updateData function initially and set an interval to call it periodically
+        updateData();
+        setInterval(updateData, 5000); // Update every 5 seconds
+    </script>
+</body>
+</html>
